@@ -1,0 +1,241 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(199, 199, 199);
+    color: rgb(39, 39, 39);
+    width: 100%;
+    height: 100%;
+}
+h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+.header{
+    display: flex;
+    padding-left: 6rem;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    justify-content: space-between;
+}
+@media (max-width:600px) {
+    .header{
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+}
+.sign{
+    display: flex;
+}
+
+.logo-text{
+    font-weight: bold;
+    margin: 0;
+    margin-right: auto;
+}
+.navbar{
+    padding-right: 6rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+@media (max-width:600px) {
+    .navbar{
+        padding-right: 1rem;
+    }
+}
+
+.navbar ul{
+    display: flex;
+    gap: 1.3rem;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar a{
+        text-decoration: none;
+        color: inherit;
+        position: relative;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(3, 172, 3);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+.landing{
+    background-color: rgb(199, 199, 199);
+    margin: 0;
+    min-height: 70vh;
+    display: flex;
+    padding-top: 8rem;
+    padding-left: 3rem;
+    flex-direction: column;
+    align-content: start;
+}
+@media (max-width:600px) {
+    .landing{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+.landing h1{
+        font-size: clamp(1.5rem, 5vw, 3.5rem);
+        line-height: 1.5;
+}
+.landingimg{
+    min-width: 120px;
+    min-height: auto;
+    display: flex;
+}
+
+.green{
+    color: rgb(3, 172, 3);
+}
+h5{
+    font-weight: normal;
+    margin-top: 0;
+}
+.landandimg{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.landimg{
+    flex-shrink: 0;
+    display: flex;
+
+}
+.btn{
+    text-decoration: none;
+    display: inline block;
+    background-color: rgb(3, 172, 3);
+    padding: 0.8rem 1.7rem;
+    border-radius: 8px;
+    color: white;
+    font-weight: normal;
+
+}
+.btn2{
+    background-color: rgb(3, 172, 3);
+    padding: 0.7rem 2rem;
+    border-radius: 8px;
+    color: white;
+    font-weight: normal;
+}
+
+.btn:hover{
+    background-color: rgb(6, 116, 6);
+}
+.btn2:hover{
+    background-color: rgb(6, 116, 6);
+    text-decoration: none;
+ }
+ .client{
+    padding-top: 5vh;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.bigimg{
+    width: 100%;
+    height: auto;
+    max-width: 35px;
+}
+.sponsors{
+   display: flex;
+   gap: 10vh;
+}
+@media (max-width: 989px){
+    .sponsors {
+        flex-wrap: wrap;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    }
+}
+.whofor{
+    font-weight: 640;
+}
+.who{
+    background-color: white;
+    display: flex;
+    gap: 15vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width:600px) {
+    .who{
+        min-width: auto;
+        gap: 2vh;
+    }
+    
+}
+.card{
+    box-shadow: 0 2px 3px rgb(39, 39, 39);
+    padding: 5vh;
+    border-radius: 9px;
+}
+.hr{
+    padding-top: 10vh;
+    margin: 0;
+}
+.final{
+    background-color: white;
+    display: flex;
+    padding-top: 10vh;
+    padding-left: 3rem;
+    flex-direction: column;
+    margin: 0;
+}
+h3{
+    font-weight: 600;
+}
+.end{
+    padding-top: 10vh;
+    padding-left: 3rem;
+}
+h4{
+    font-weight: 600;
+}
+.cont{
+    display: grid;
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+}
+@media (max-width: 600px){
+    .cont{
+    flex-direction: column
+}}
+.imgandtext{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+    width: 220px;
+}
+.mem{
+    padding-top: 2vh;
+}
+.footer{
+    background-color: rgb(31, 31, 48);
+    padding-top: 5vh;
+    color: white;
+    padding-left: 7rem;
+    margin: 0;
+}
+@media (max-width:600px) {
+    .footer{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+}
